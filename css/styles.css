@@ -1,0 +1,158 @@
+/* root */
+:root {
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: #31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --grey: rgba(46, 47, 66, 0.7);
+    --white: #fff;
+    --dairy: #fcfcfc;
+
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+}
+
+/* base */
+body {
+    font-family: var(--font-family);
+    color: var(--navy-blue);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 2px;
+}
+
+h1 {
+    line-height: 107%;
+    font-size: 56px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+h4 {
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--slate);
+}
+
+h5 {
+    font-size: 12px;
+    line-height: 117%;
+}
+
+a {
+    text-decoration: none;
+}
+    
+ul,
+ol {
+    list-style-type: none;
+    text-decoration: none;
+    color: currentColor;
+ }
+
+ address {
+     font-style: normal;
+
+     a {
+        color: var(--slate);
+     }
+ }
+
+
+
+ /* Header */
+ .logo {
+    font-family: var(--second-family);
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+ }
+ .logo-dark {
+    color: var(--navy-blue);
+ }
+
+ .header-nav-list {
+    padding: 0;
+    margin: 0;
+ }
+
+ .header-nav-item {
+    color: var(--navy-blue);
+ }
+
+ .header-nav-item a:hover {
+    color: var(--ocean);
+ }
+
+ .header-adress{
+    padding: 0;
+    margin: 0;
+ }
+
+ .header-adress-list {
+    padding: 0;
+    margin: 0;
+ }
+
+ .header-adress-item a:hover {
+    color: var(--slate);
+ }
+ .header-adress-item a:hover {
+    color: var(--ocean);
+ }
+
+
+ /* Hero */
+ .hero {
+    background: var(--navy-blue);
+ }
+
+ .button {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: var(--iris);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    cursor: pointer;
+ }
+
+ button:hover {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: var(--ocean);
+ }
+
+
+ /* Section2 */
+ .team {
+    background: var(--cloud);
+ }
+
+
+
+
+ /* Footer */
+ .footer {
+    background: var(--navy-blue);
+    color: var(--white)
+ }
