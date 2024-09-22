@@ -73,6 +73,9 @@ ol {
  .logo-dark {
     color: var(--navy-blue);
  }
+ .logo-light {
+    color: var(--cloud);
+  }
 
  .header-nav-item {
     color: var(--navy-blue);
@@ -108,6 +111,9 @@ ol {
  .header-adress-link:focus {
      color: var(--ocean);
  }
+/* End Header */
+
+
 
  /* Hero */
  .hero {
@@ -140,6 +146,8 @@ ol {
   }
 /* End Hero */
 
+
+
  /** Section 2 Features **/
 .features-title {
     font-weight: 500;
@@ -153,10 +161,10 @@ ol {
     line-height: 150%;
 
 }
-
  /** End Section 2 Features **/
  
  
+
  /* Section 3 Team */
  .team {
     background: var(--cloud);
@@ -181,6 +189,8 @@ ol {
      background: var(--cloud);
  }
  /* End Section 4 Portfolio */
+
+
 
  /* Footer */
  .footer {
