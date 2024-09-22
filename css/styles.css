@@ -20,42 +20,8 @@
 /* base */
 body {
     font-family: var(--font-family);
-    color: var(--navy-blue);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    letter-spacing: 2px;
-}
-
-h1 {
-    line-height: 107%;
-    font-size: 56px;
-}
-
-h2 {
-    font-size: 36px;
-}
-
-h3 {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 120%;
-}
-
-h4 {
-    font-size: 16px;
-    line-height: 150%;
     color: var(--slate);
-}
-
-h5 {
-    font-size: 12px;
-    line-height: 117%;
+    background: var(--white);
 }
 
 a {
@@ -69,55 +35,46 @@ ol {
     color: currentColor;
  }
 
- address {
-     font-style: normal;
-
-     a {
-        color: var(--slate);
-     }
- }
-
-
 
  /* Header */
  .logo {
     font-family: var(--second-family);
     font-size: 18px;
-    letter-spacing: 3px;
+    color: var(--slate);
+    letter-spacing: 0.03em;
+    line-height: 117%;
     text-transform: uppercase;
  }
  .logo-dark {
     color: var(--navy-blue);
  }
 
- .header-nav-list {
-    padding: 0;
-    margin: 0;
- }
-
  .header-nav-item {
     color: var(--navy-blue);
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
  }
-
  .header-nav-item a:hover {
+     color: var(--ocean);
+ } .header-nav-item a:focus {
     color: var(--ocean);
  }
 
- .header-adress{
-    padding: 0;
-    margin: 0;
+ .header-adress {
+    font-style: normal
  }
-
- .header-adress-list {
-    padding: 0;
-    margin: 0;
- }
-
- .header-adress-item a:hover {
-    color: var(--slate);
- }
- .header-adress-item a:hover {
+.header-adress-item {
+    font-size: 16px;
+    line-height: 150%;
     color: var(--ocean);
+}
+ .header-adress-item a:hover {
+     color: var(--slate);
+ }
+ .header-adress-item a:focus {
+     color: var(--ocean);
  }
 
 
@@ -125,10 +82,13 @@ ol {
  .hero {
     background: var(--navy-blue);
  }
+ .hero-title {
+    font-weight: 700;
+    line-height: 107%;
+    font-size: 56px;
+ }
 
  .button {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: var(--iris);
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -138,7 +98,6 @@ ol {
  }
 
  button:hover {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: var(--ocean);
  }
 
