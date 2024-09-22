@@ -51,6 +51,11 @@ ol {
      letter-spacing: 0.02em;
      color: var(--navy-blue);
  }
+ .section-img-text {
+     font-size: 16px;
+     line-height: 150%;
+     letter-spacing: 0.02em;
+ }
  /* End Common   */
 
 
@@ -164,18 +169,9 @@ ol {
     text-transform: capitalize;
     color: var(--navy-blue)
  }
- .team-list {
-    background-color:var(--white);
-
+ .team-item {
+    background-color: var(--white);
  }
- .team-img-title {
-
- }
-.team-img-text {
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-}
  /* End Section 3 Team */
 
  
@@ -184,7 +180,6 @@ ol {
  .team {
      background: var(--cloud);
  }
-
  /* End Section 4 Portfolio */
 
  /* Footer */
