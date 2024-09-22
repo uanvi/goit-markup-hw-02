@@ -40,7 +40,8 @@ ol {
  .logo {
     font-family: var(--second-family);
     font-size: 18px;
-    color: var(--slate);
+    font-weight: 700;
+    color: var(--iris);
     letter-spacing: 0.03em;
     line-height: 117%;
     text-transform: uppercase;
@@ -54,12 +55,14 @@ ol {
     font-weight: 500;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
  }
  .header-nav-item a:hover {
      color: var(--ocean);
  } .header-nav-item a:focus {
     color: var(--ocean);
+ }
+ .header-nav-link {
+    color: var(--navy-blue);
  }
 
  .header-adress {
@@ -70,13 +73,17 @@ ol {
     line-height: 150%;
     color: var(--ocean);
 }
- .header-adress-item a:hover {
-     color: var(--slate);
+ .header-adress-link {
+    letter-spacing: 0.02em;
+    color: var(--slate);
  }
- .header-adress-item a:focus {
+ .header-adress-link:hover {
      color: var(--ocean);
  }
 
+ .header-adress-link:focus {
+     color: var(--ocean);
+ }
 
  /* Hero */
  .hero {
@@ -86,6 +93,9 @@ ol {
     font-weight: 700;
     line-height: 107%;
     font-size: 56px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--white);
  }
 
  .button {
@@ -94,12 +104,16 @@ ol {
     line-height: 150%;
     letter-spacing: 0.04em;
     color: var(--white);
+    background-color: var(--iris)
     cursor: pointer;
  }
 
  button:hover {
     background: var(--ocean);
  }
+  button:focus {
+      background: var(--ocean);
+  }
 
 
  /* Section2 */
