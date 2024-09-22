@@ -35,6 +35,25 @@ ol {
     color: currentColor;
  }
 
+ /* Common */
+ .section-title {
+    line-height: 111%;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-blue);
+ }
+ .section-item-title {
+     font-weight: 500;
+     line-height: 120%;
+     font-size: 20px;
+     letter-spacing: 0.02em;
+     color: var(--navy-blue);
+ }
+ /* End Common   */
+
+
 
  /* Header */
  .logo {
@@ -104,7 +123,7 @@ ol {
     line-height: 150%;
     letter-spacing: 0.04em;
     color: var(--white);
-    background-color: var(--iris)
+    background-color: var(--iris);
     cursor: pointer;
  }
 
@@ -114,18 +133,63 @@ ol {
   button:focus {
       background: var(--ocean);
   }
+/* End Hero */
 
+ /** Section 2 Features **/
+.features-title {
+    font-weight: 500;
+    line-height: 120%;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+.features-item-text {
+    letter-spacing: 0.02em;
+    line-height: 150%;
 
- /* Section2 */
+}
+
+ /** End Section 2 Features **/
+ 
+ 
+ /* Section 3 Team */
  .team {
     background: var(--cloud);
  }
+ .team-title {
+    font-size: 36px;
+    line-height: 111%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-blue)
+ }
+ .team-list {
+    background-color:var(--white);
 
+ }
+ .team-img-title {
 
+ }
+.team-img-text {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+ /* End Section 3 Team */
 
+ 
+ 
+ /* Section 4 Portfolio */
+ .team {
+     background: var(--cloud);
+ }
+
+ /* End Section 4 Portfolio */
 
  /* Footer */
  .footer {
     background: var(--navy-blue);
     color: var(--white)
  }
+  /* End Footer */
