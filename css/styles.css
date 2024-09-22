@@ -51,7 +51,7 @@ ol {
      letter-spacing: 0.02em;
      color: var(--navy-blue);
  }
- .section-img-text {
+ .section-list-item-text {
      font-size: 16px;
      line-height: 150%;
      letter-spacing: 0.02em;
@@ -186,5 +186,10 @@ ol {
  .footer {
     background: var(--navy-blue);
     color: var(--white)
+ }
+ .footer-text {
+    line-height: 150%;
+    color: var(--cloud);
+    letter-spacing: 0.02em;;
  }
   /* End Footer */
